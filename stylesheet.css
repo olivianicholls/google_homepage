@@ -1,0 +1,9 @@
+.logo {
+  height: 300px;
+  position: absolute;
+  margin: 110px;
+}
+.searchbar{
+  position: absolute;
+  margin: 200px;
+}
