@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 ul{
   text-align: right;
   margin: 20px 20px 0 0;
@@ -14,8 +17,15 @@ color: #555555;
 font-size: 13px;
 font-family: sans-serif;
 }
+
+li a:hover {
+  text-decoration: underline;
+}
 i {
   color: #555555;
+}
+.fa-user-circle {
+  color: #d15b17;
 }
 .logo {
   display: flex;
@@ -42,11 +52,61 @@ form {
 	padding:6px 10px 6px 30px;
 	margin-left: 30px;
   width: 550px;
-  font-size: 30px;
-  box-shadow: 0px 1px 5px #888888;
+  font-size: 28px;
+  box-shadow: 0px 1px 5px rgba(136, 136, 136, 0.8);
   border: 0px;
 }
 
+<<<<<<< HEAD
+.buttons {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+button {
+  padding: 10px 16px 10px 16px;
+  margin: 30px 5px 0 5px;
+  font-family: arial, sans-serif;
+  color: grey;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid white;
+  background-color: #efefef;
+}
+
+button:hover {
+  border: 1px solid #bbbbbb;
+  color: #222222;
+  box-shadow: 0px 1px 1px rgba(136, 136, 136, 0.3);
+}
+.wrapper {
+position: relative;
+
+}
+.footbar {
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: #efefef;
+border: 1px solid #dddddd;
+}
+
+.l-foot-ul {
+float: left;
+margin-left: -20px;
+margin-bottom: 12px;
+margin-top: -10px;
+}
+
+.r-foot-ul {
+float: right;
+margin-right: 5px;
+margin-top: -10px;
+}
+
+.foot-li {
+padding: 13px;
+=======
 
 .wrapper {
 position: relative;
@@ -85,4 +145,5 @@ margin-right: 6px;
   
 padding: 13px;
 
+>>>>>>> 9b4a63e48fcf4cb001b222fb1a95bcdd5549b083
 }
