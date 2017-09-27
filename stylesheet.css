@@ -57,7 +57,6 @@ form {
   border: 0px;
 }
 
-<<<<<<< HEAD
 .buttons {
   align-items: center;
   justify-content: center;
@@ -106,44 +105,4 @@ margin-top: -10px;
 
 .foot-li {
 padding: 13px;
-=======
-
-.wrapper {
-position: relative;
-background-color: #dddddd;
-
-}
-.footbar {
-  
-max-height: 90px;
-display: inline;
-  
-position: fixed;
-bottom: 0;
-  
-width: 100%;
-
-}
-
-.l-foot {
-  
-float: left;
-  
-margin-left: -30px;
-
-}
-
-.r-foot {
-  
-float: right;
-  
-margin-right: 6px;
-
-}
-
-.footnav {
-  
-padding: 13px;
-
->>>>>>> 9b4a63e48fcf4cb001b222fb1a95bcdd5549b083
 }
