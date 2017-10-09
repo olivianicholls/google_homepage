@@ -1,108 +1,71 @@
 body {
-  margin: 0;
+	margin: 0;
 }
-ul{
-  text-align: right;
-  margin: 20px 20px 0 0;
+.navbar {
+	box-shadow: 0px 2px 3px rgba(88, 88, 88, 0.5);
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	
 }
-li {
-  display: inline;
-  list-style-type: none;
-  padding: 6px;
+.left-nav {
+	display: inline;
+	margin: 20px;
+	float: left;
 }
-
-li a {
-text-decoration: none;
-color: #555555;
-font-size: 13px;
-font-family: sans-serif;
+#.left-nav a{
+	padding: 60px;
 }
-
-li a:hover {
-  text-decoration: underline;
-}
-i {
-  color: #555555;
-}
-.fa-user-circle {
-  color: #d15b17;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
-.logoimage {
-  height: 220px;
-  margin-bottom: -30px;
-  margin-top: 90px;
-}
-
-.searchbar{
-  display: flex;
-  align-items: center;
-  justify-content: center
-  }
-
 form {
-  	margin:0 auto;
+	display: inline;
+	margin: 20px;
+	width: 70px;
+}
+.searchbar {
+	margin: 15px;
+	float: left;
+	display: inline;
+	padding: -20px;
 }
 .search {
-	padding:6px 10px 6px 30px;
-	margin-left: 30px;
-  width: 550px;
-  font-size: 28px;
-  box-shadow: 0px 1px 5px rgba(136, 136, 136, 0.8);
-  border: 0px;
+	width: 500px;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px solid #dddddd;
+}
+.search-button {
+	padding: 6px 20px;
+	background-color: #f5f5f5;
+	color: #888888;
+	border: 1px solid #dddddd;
 }
 
-.buttons {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-button {
-  padding: 10px 16px 10px 16px;
-  margin: 30px 5px 0 5px;
-  font-family: arial, sans-serif;
-  color: grey;
-  font-size: 13px;
-  font-weight: bold;
-  border: 1px solid white;
-  background-color: #efefef;
-}
-
-button:hover {
-  border: 1px solid #bbbbbb;
-  color: #222222;
-  box-shadow: 0px 1px 1px rgba(136, 136, 136, 0.3);
-}
-.wrapper {
-position: relative;
-
-}
-.footbar {
-position: fixed;
-bottom: 0;
-width: 100%;
-background-color: #efefef;
-border: 1px solid #dddddd;
-}
-
-.l-foot-ul {
-float: left;
-margin-left: -20px;
-margin-bottom: 12px;
-margin-top: -10px;
-}
-
-.r-foot-ul {
+.navbar ul {
+list-style-type: none;
 float: right;
-margin-right: 5px;
-margin-top: -10px;
+display: inline;
+margin: 20px;
+
+}
+.navbar li {
+display: inline;
+padding: 10px;
+}
+a {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #888888;
 }
 
-.foot-li {
-padding: 13px;
+#sign-in {
+	color: orange;
+	font-size: 18px;
+}
+.video {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.title {
+	text-align: center;
 }
